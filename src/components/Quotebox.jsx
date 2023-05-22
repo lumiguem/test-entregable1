@@ -1,4 +1,4 @@
-import "./styles/Quotebox.css"
+import "./styles/QuoteBox.css"
 const Quotebox = ({ phrase, handleChangeQuote }) => {
     return (
         <section className="quoteBox">
