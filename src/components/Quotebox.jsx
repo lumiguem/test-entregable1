@@ -6,7 +6,6 @@ const Quotebox = ({ phrase, handleChangeQuote }) => {
             <article className="quoteBox__phrase">
                 <p>{phrase}</p>
             </article>
-            <QuoteButton handleChangeQuote={handleChangeQuote} />
         </section>
     )
 }

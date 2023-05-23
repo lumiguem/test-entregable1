@@ -3,6 +3,7 @@ import './App.css'
 import dbQuotes from "./db/quote.json"
 import { getRandom } from './utils/random'
 import Quotebox from './components/Quotebox'
+import QuoteButton from './components/QuoteButton'
 
 
 const bgImages = ["bg1", "bg2", "bg3", "bg4"]
@@ -13,7 +14,8 @@ function App() {
 
   const handleChangeQuote = () => {
     setQuote(getRandom(dbQuotes));
-    setBgImage(getRandom(bgImages))
+    setBgImage(getRandom(bgImages));
+    handleChangeQuote
   };
   return (
 
@@ -26,6 +28,7 @@ function App() {
       </section>
 <section className='planetContainer'>
           <img src="/images/planeta2.png" alt="" />
+            <QuoteButton handleChangeQuote={handleChangeQuote} />
             <h3>Source: {quote.author} </h3>
           </section>
 
