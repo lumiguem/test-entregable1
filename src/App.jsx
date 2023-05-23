@@ -4,6 +4,7 @@ import dbQuotes from "./db/quote.json"
 import { getRandom } from './utils/random'
 import Quotebox from './components/Quotebox'
 
+
 const bgImages = ["bg1", "bg2", "bg3", "bg4"]
 
 function App() {
@@ -15,16 +16,21 @@ function App() {
     setBgImage(getRandom(bgImages))
   };
   return (
+
     <main className={`app ${bgImage}`}>
       <section className='app__container'>
-        <h1>INFOGALAX</h1>
-      <Quotebox handleChangeQuote = {handleChangeQuote}phrase = {quote.phrase}/>
-      <footer>
-        <h3>Source: {quote.author} </h3>
-      </footer>
+        <h1 className='title'>INFOGALAX</h1>
+        <Quotebox handleChangeQuote={handleChangeQuote} phrase={quote.phrase} />
+        
+      
       </section>
+<section className='planetContainer'>
+          <img src="/images/planeta2.png" alt="" />
+            <h3>Source: {quote.author} </h3>
+          </section>
 
     </main>
+
   )
 }
 

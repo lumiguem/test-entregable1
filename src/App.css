@@ -1,3 +1,7 @@
+.title {
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+}
 .app{
     color: white;
     background-size: cover;
@@ -5,28 +9,51 @@
     min-height: 100vh;
     display: grid;
     justify-items: center;
+   
 }
 
 .app.bg1 {
-    background-image: url(/images/.bg1.jpg);
+  
+    background-image: url(/images/bg1.jpg);
 }
 
 .app.bg2 {
     background-image: url(/images/bg2.jpg);
+
 }
 
 .app.bg3 {
     background-image: url(/images/bg3.jpg);
+   
 }
 
 .app.bg4 {
     background-image: url(/images/bg4.jpg);
+   
 }
 .app__container {
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto;
     align-items: center;
     justify-items: center;
-    width: min(100%, 300px);
+    width: min(100%, 450px);
     padding: 0 10px;
+
 }
+
+.planetContainer {
+   overflow: hidden;
+    position: relative;
+}
+
+.planetContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.planetContainer h3 {
+    position: absolute;
+    bottom: 10%;
+    left: 38%;
+}
+

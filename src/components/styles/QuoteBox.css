@@ -1,5 +1,23 @@
 .quoteBox__btn {
-
+    border: none;
+    background-color: transparent;
     display: block ;
     margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+    
+    }
+
+.quoteBox__phrase {
+    color: black;
+    background: linear-gradient(white, gray);
+    padding: 45px 25px;
+    opacity: 70%;
+    border-radius: 39px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    
     }
