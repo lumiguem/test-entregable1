@@ -47,16 +47,18 @@
    overflow: hidden;
     position: relative;
     justify-items: center;
+
     
 }
 
 .planetContainer img {
-    width: 72%;
+    width: 75%;
     height: 100%;
     
 }
 
 .planetContainer h3 {
+    font-size: 12px;
     position: absolute;
     bottom: 10%;
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);   
