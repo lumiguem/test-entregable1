@@ -1,4 +1,4 @@
-import QuoteButton from "./QuoteButton"
+
 import "./styles/QuoteBox.css"
 const Quotebox = ({ phrase, handleChangeQuote }) => {
     return (

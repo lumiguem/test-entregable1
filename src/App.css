@@ -66,6 +66,16 @@
 .planetContainer button {
     position: absolute;
     top: 10%;
-    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);   
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8); 
+
 }
 
+.quoteBox__btn {
+    border: none;
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+    justify-items: center;
+    
+    }

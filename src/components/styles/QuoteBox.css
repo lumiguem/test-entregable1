@@ -1,13 +1,3 @@
-.quoteBox__btn {
-    border: none;
-    background-color: transparent;
-    display: block ;
-    margin: 0 auto;
-    margin-top: 10px;
-    cursor: pointer;
-    
-    }
-
 .quoteBox__phrase {
     color: black;
     background: linear-gradient(white, gray);
